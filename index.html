@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Validation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="h2-content">
+            <h2>Login Page</h2>
+        </div>
+
+        <form id="form" class="form">  <!--this form element  part is for javascript-->
+            
+            <div class="form-control"> <!--if you want to add icon please add it inside this div. I giv whole information in style.csc-->
+                <label for="username">Username</label>
+                <input type="text" placeholder="sFarkhod" id="username"/>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="example@gmail.com" id="email"/>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="password" id="password"/>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Confirm Password</label>
+                <input type="password" placeholder="password" id="password2"/>
+                <small>Error message</small>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
